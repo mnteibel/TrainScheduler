@@ -1,0 +1,21 @@
+body{
+	background-image:url("../images/background.jpg"); 
+}
+
+.container-fluid{
+	margin:50px;
+	padding-top:50px;
+	padding-left:25px;
+	padding-right:25px;	
+	background-color:#ECDFEC;
+	color:#008B8B;
+}
+
+#newRow{
+	color:#008B8B;
+}
+
+input{
+	border:none;
+	background-color:#F2F2F2;
+}

@@ -1,0 +1,66 @@
+
+<!-- saved from url=(0051)file:///Users/Max/Desktop/TrainScheduler/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>Train Scheduler</title>
+	
+		<link rel="stylesheet" href="./Train Scheduler_files/bootstrap.min.css">
+
+		<link rel="stylesheet" href="./Train Scheduler_files/style.css">
+
+		<script src="./Train Scheduler_files/jquery.min.js"></script>
+
+		<script src="./Train Scheduler_files/firebase.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+
+			<div class="jumbotron">
+				<h1 class="text-center"><strong>ALL ABOARDDDDD</strong></h1>
+				<h3 class="text-center">Choo Choo</h3>
+			</div>
+			
+			<div class="row">
+				<div class="panel-main">
+					<div class="panel-head">
+						<div class="panel-title"><strong>Current Train Schedule</strong>
+						</div>
+						<tread>
+								</tread><table id="newRow" class="table">
+							<tbody><tr>
+									<th>Train Name</th>
+									<th>Destination</th>
+									<th>Frequency(min)</th>
+									<th>Next Arrival</th>
+									<th>Minutes Away</th>
+								</tr>
+							
+						<tr><td>Red Line</td><td>95th</td><td>7</td><td>04:32</td><td>7</td></tr><tr><td>Brown Line</td><td>Kimball</td><td>3</td><td>04:27</td><td>2</td></tr><tr><td>Boston Train</td><td>Boston</td><td>240</td><td>06:00</td><td>95</td></tr><tr><td>New York Train</td><td>New York</td><td>300</td><td>06:00</td><td>95</td></tr></tbody></table>
+					</div>
+				</div>
+			</div>
+			<div class="panel-title"><strong>Add Train</strong>
+				<div class="panel-body">
+					<div class="form">
+						Train Name<br>
+						<input type="text" id="trainName"><br>
+						Destination<br>
+						<input type="text" id="trainDestination"><br>
+						First Train Time (HH:mm)<br>
+						<input type="text" id="trainTime"><br>
+						Frequency (min)<br>
+						<input type="text" id="trainFrequency">
+
+						<br><br>
+
+						<button type="submit" class="btn btn-default" id="trainSubmit">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./Train Scheduler_files/firebase.js"></script>
+
+		<script src="./Train Scheduler_files/moment.min.js"></script>
+
+		<script src="./Train Scheduler_files/logic.js"></script>
+  	
+</body></html>
